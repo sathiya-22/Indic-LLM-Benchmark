@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-google-genai
+langchain-openai
+langchain-groq
+sentence-transformers
+pandas
+matplotlib
+python-dotenv
+streamlit
+indic-nlp-library
