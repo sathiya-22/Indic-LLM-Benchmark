@@ -1,6 +1,33 @@
+# Python
 venv/
 __pycache__/
-.env
-.DS_Store
-data/results_database.db
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Data & results (keep sample data, ignore generated outputs)
+data/results_database.db
+data/leaderboard.json
+data/*.csv
+data/*.jsonl
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
